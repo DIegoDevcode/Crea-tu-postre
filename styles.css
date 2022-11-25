@@ -1,0 +1,91 @@
+:root{
+    --color-primario: #ffd9c9;
+    --color-secundario: #ebafcc;
+    --color-terciario: #ffdb83;
+    --color-cuaternario: #c094d6;
+    --color-grisaceo: #787878;
+    --just-white:#ffffff;
+    --pure-black:#000000;
+    --fuente1: font-family: 'Nerko One', cursiva;
+    --fuente2: font-family: 'Kanit', sans-serif;
+}
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--fuente2);
+}
+
+body{
+    background-color: var(--color-primario);
+}
+
+.div--container img{
+    width: 220px;
+    margin-left: 15px;
+}
+.Flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    width: 100%;
+}
+.box-buttons{
+    border: 1px solid red;
+    background-color: var(--color-secundario);
+    color: var(--pure-black);
+    font-family: var(--fuente2);
+    height: 120px;
+    width: 220px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.section-grid-container{
+    display: grid;
+    grid-template-columns: 800px 800px;
+    justify-content: center;
+    padding: 11.76%;
+
+}
+
+.item {
+    font-size: 4rem;
+    margin: 0 auto;
+
+
+}
+.item1 img{
+    width: 50%;
+    height: 50%;
+}
+
+.item2 img{
+    width: 50%;
+    height: 50%;
+}
+
+.item .button-rose{
+    background-color: var(--color-secundario);
+    width: 600px;
+    box-sizing: border-box;
+    border: 2px;
+    font-size: 15px;
+    font-family: var(--fuente2);
+    font-weight: bold;
+}
+
+.end{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: var(--fuente1);
+}
