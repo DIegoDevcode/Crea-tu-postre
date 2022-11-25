@@ -9,7 +9,6 @@
     --fuente1: font-family: 'Nerko One', cursiva;
     --fuente2: font-family: 'Kanit', sans-serif;
 }
-
 *{
     box-sizing:border-box;
     margin: 0;
@@ -29,39 +28,37 @@ body{
     width: 220px;
     margin-left: 15px;
 }
-.flex-container{
+.Flex-container{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-between ;
     width: 100%;
 }
 
-.box-buttons--rose{
-    height: 100%;
-    width: 100%;
-}
-.button--rose{
+.box-buttons{
+    border: 2px;
     background-color: var(--color-secundario);
     color: var(--pure-black);
+    font-family: var(--fuente2);
+    height: 120px;
+    width: 220px;
     font-size: 32px;
-    width: 400px;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
 }
 
-.product-container{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    width: 100%;
+.Cuenta-container{
+    font-size: 87px;
+    text-align: center;
+    font-family: var(--fuente1);
+    padding: 8.76%;
 }
 
-select {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-family: cursive, sans-serif;
-    outline: 0;
-    background: #2ecc71;
-    color: #fff;
-    border: 1px solid crimson;
-    padding: 4px;
-    border-radius: 9px;
-  }
+.end{
+    text-align: center;
+    font-size: 13.5px;
+    font-weight: bold;
+    font-family: var(--fuente1);
+}

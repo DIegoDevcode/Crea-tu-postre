@@ -28,30 +28,76 @@
                 <button class="button--rose">Contacto</button>
                </div>
             </section>
-            <section class="product-container">
-                <div class="box-buttons-yellow">
-                    <button class="button--yellow">Browni</button>
-                </div>
-                <div class="box-buttons-yellow">
-                    <button class="button--yellow">Tortas</button>
-                </div>
-                <div class="box-buttons-yellow">
-                    <button class="button--yellow">Galletas</button>
-                </div>
-                <div class="box-buttons-yellow">
-                    <button class="button--yellow">Cupcakes</button>
-                </div>
-                <div class="box-buttons-yellow">
-                    <button class="button--yellow">Postres</button>
-                </div>
-         </section>
-         <section class="ingredient--container">
-            <div class="ingredient--box-roses">
-                <button class="ingredient--butons-roses">Harina</button>
-            </div>
-            <div class="ingredient--box-roses">
-                <button class="ingredient--butons-roses">Leche</button>
-            </div>
+            <section id="#product" class="product-container">
+                <form action="#">
+                    <label for="postre">Tipos de postre</label>
+                    <select name="postre" id="postre">
+                      <option value="brouwnie">Brouwnie</option>
+                      <option value="cupcake">Cupcake</option>
+                      <option value="galleta">Galleta</option>
+                      <option value="tortas">Tortas</option>
+                      <option value="postres">Postres</option>
+                    </select>
+                    <input type="submit" value="Enviar" />
+                </form>
+                <form action="#">
+                    <label for="harina">Harina</label>
+                    <select name="harina" id="harina">
+                      <option value="H almendras">Harina de almendras</option>
+                      <option value="H avena">Harina de avena</option>
+                      <option value="H maiz">Harina de maiz</option>
+                      <option value="H trigo">Harina de trigo</option>
+                    </select>
+                    <input type="submit" value="Enviar"/>
+                </form>
+                <form action="#">
+                    <label for="Leche">Leche</label>
+                    <select name="Leche" id="Leche">
+                    <option value="L soya">Leche de soya</option>
+                    <option value="L almendras">Leche de almendras</option>
+                    <option value="L coco">Leche de coco</option>
+                    <option value="L Arroz">Leche de Arroz</option>
+                </select>
+                <input type="submit" value="Enviar" />
+                </form>
+                <form action="#">
+                    <label for="endulzante">Endulzante</label>
+                    <select name="endulzante" id="endulzante">
+                    <option value="Estebia">Estebia</option>
+                    <option value="miel">miel</option>
+                    <option value="panela">panela</option>
+                </select>
+                <input type="submit" value="Enviar" />
+                </form>
+                <form action="#">
+                    <label for="Toppings">Toppings</label>
+                    <select name="Toppings" id="Toppings">
+                    <option value="avena">avena</option>
+                    <option value="M&M">M&M</option>
+                    <option value="almendras">almendras</option>
+                    <option value="CC">Chipas de chocolate</option>
+                    <option value="Fruta">Fruta</option>
+                </select>
+                <input type="submit" value="Enviar" />
+                </form>
+                <form action="#">
+                    <label for="Decoraccion">Decoraccion</label>
+                    <select name="Decoraccion" id="Decoraccion">
+                    <option value="Cereza">Cereza</option>
+                    <option value="Barquillo">Barquillo</option>
+                </select>
+                <input type="submit" value="Enviar" />
+                </form>
+                <form action="#">
+                    <label for="Cantidad">Cantidad</label>
+                    <select name="Cantidad" id="Cantidad">
+                    <option value="X6">x6</option>
+                    <option value="X12">X12</option>
+                    <option value="X18">X18</option>
+                    <option value="X24">X24</option>
+                </select>
+                <input type="submit" value="Enviar" />
+                </form>
          </section>
     </header>
     <main>
